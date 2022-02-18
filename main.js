@@ -1,9 +1,9 @@
 
-// Operadores Arigmetico Suma
+// Operadores Arigmetico resta
 let num1 = parseInt(prompt("Usuario ingrese el numero 1", 1));
 let num2 = new Number(prompt("Usuario ingrese el numero 2", 2));
 let myStyle = `
-    color: #fff;
+    color: white;
     background: #801515;
     padding: 5px;
     border-radius: 5px;
@@ -12,8 +12,8 @@ let myStyle = `
 console.group(`%cOperadores Arigmeticos Suma`, myStyle);
 
     console.log(`Variable num1: ${num1} num2: ${num2}`);
-    num1 += num2;
-    console.log(`La suma es: ${num1}`);
+    num1 -= num2;
+    console.log(`La resta es: ${num1}`);
 
 console.groupEnd();
 
