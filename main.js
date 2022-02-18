@@ -1,5 +1,5 @@
 
-// Operadores Arigmetico exponenciación
+// Operadores Arigmetico asignación de resto
 let X = parseInt(prompt(" ingrese el numero ", 0));
 let Y = new Number(prompt(" ingrese el numero ", 0));
 let myStyle = `
@@ -9,11 +9,11 @@ let myStyle = `
     border-radius: 5px;
 `;
 
-console.group(`%cOperadores Arigmeticos exponenciación`, myStyle);
+console.group(`%cOperadores Arigmeticos asignación de resto`, myStyle);
 
     console.log(`Variable X: ${X} Y: ${Y}`);
-    X **= Y;
-    console.log(`La exponenciación es: ${X}`);
+    X %= Y;
+    console.log(`La asignación de resto es: ${X}`);
 
 console.groupEnd();
 
