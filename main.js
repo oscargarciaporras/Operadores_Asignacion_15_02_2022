@@ -1,7 +1,7 @@
 
-// Operadores Arigmetico división
-let X = parseInt(prompt(" ingrese un numero ", 0));
-let Y = new Number(prompt(" ingrese un numero ", 0));
+// Operadores Arigmetico multiplicación
+let X = parseInt(prompt(" ingrese el numero 1", 1));
+let Y = new Number(prompt(" ingrese el numero 2", 2));
 let myStyle = `
     color: white;
     background: #801515;
@@ -9,11 +9,11 @@ let myStyle = `
     border-radius: 5px;
 `;
 
-console.group(`%cOperadores Arigmeticos división`, myStyle);
+console.group(`%cOperadores Arigmeticos multiplicaión`, myStyle);
 
     console.log(`Variable X: ${X} Y: ${Y}`);
-    X /= Y;
-    console.log(`La división es: ${X}`);
+    X *= Y;
+    console.log(`La multiplicaión es: ${X}`);
 
 console.groupEnd();
 
