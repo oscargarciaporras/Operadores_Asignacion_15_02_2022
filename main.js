@@ -1,25 +1,10 @@
-// Operador de comparacion Menor
-let x = 9/5+((10%8)-2*(5*5/2))/6;
-//      9/5+((2)-2*(25/2))/6
-//      9/5+(2-2*12.5)/6
-//      9/5+(2-25)/6
-//      9/5+(-23)/6
-//      9/5+(-3.833333)
-//      1.8+(-3.833333)
-//      -2.0333333
-//
-let y = (8*5/(5+2)*3)%9;
-// (8 *5/(7)*3)%9
-// (40/7*3)%9
-// (5.714285*3)%9
-// (5.71428*3)%9 
-// 17.1428%9
-// 8.1428
+// Operador de comparacion Mayor Igual
+let x = 5;
+let y = 5;
 
-let resultado = x < y;
+let resultado = x >= y;
 
-console.log(`Variable x: ${x} y: ${y} Menor '<' ${resultado}`);
-
+console.log(`Variable x: ${x} y: ${y} Mayor Igual '>=' ${resultado}`);
 
 
 
