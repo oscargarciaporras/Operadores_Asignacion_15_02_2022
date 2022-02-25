@@ -1,3 +1,5 @@
+//piramide de prioridades
+
 //let reslutado2  = 5+1*8+(9 * (5+8) / 2);
 //let reslutado2  = 5+1*8+(9 * 13 / 2);
 // let reslutado2  = 5+1*8+(117/2);
