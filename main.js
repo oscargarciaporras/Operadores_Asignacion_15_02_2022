@@ -1,21 +1,46 @@
+//let reslutado2  = 5+1*8+(9 * (5+8) / 2);
+//let reslutado2  = 5+1*8+(9 * 13 / 2);
+// let reslutado2  = 5+1*8+(117/2);
+//let reslutado2  = 5+1*8+(58.5);
+//let reslutado2  = 5+8+58.5;
+// let reslutado2  = 71.5;
 
-// Operadores Arigmetico asignación de resto
-let X = parseInt(prompt(" ingrese el numero ", 0));
-let Y = new Number(prompt(" ingrese el numero ", 0));
-let myStyle = `
-    color: white;
-    background: #801515;
-    padding: 5px;
-    border-radius: 5px;
-`;
 
-console.group(`%cOperadores Arigmeticos asignación de resto`, myStyle);
+// console.log(reslutado2);
 
-    console.log(`Variable X: ${X} Y: ${Y}`);
-    X %= Y;
-    console.log(`La asignación de resto es: ${X}`);
+// let reslutado  = 5*((4/4)*(9-7)*2)+6;
+// let reslutado  = 5*(1*2*2)+6;
+// let reslutado  = 5*(4)+6;
+// let reslutado  = 20+6;
+// let reslutado  = 20+6;
+// let reslutado  = 26
 
-console.groupEnd();
+// console.log(reslutado);
+
+
+
+
+
+
+
+
+// // Operadores Arigmetico asignación de resto
+// let X = parseInt(prompt(" ingrese el numero ", 0));
+// let Y = new Number(prompt(" ingrese el numero ", 0));
+// let myStyle = `
+//     color: white;
+//     background: #801515;
+//     padding: 5px;
+//     border-radius: 5px;
+// `;
+
+// console.group(`%cOperadores Arigmeticos asignación de resto`, myStyle);
+
+//     console.log(`Variable X: ${X} Y: ${Y}`);
+//     X %= Y;
+//     console.log(`La asignación de resto es: ${X}`);
+
+// console.groupEnd();
 
 
 
